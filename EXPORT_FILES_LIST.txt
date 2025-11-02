@@ -1,0 +1,55 @@
+📁 FILE LIST UNTUK BOLT.NEW EXPORT
+=====================================
+
+File-file yang perlu di-copy ke Bolt.new:
+
+1. DATABASE MIGRATION
+   📄 supabase/migrations/20250131000000_phase1_auto_trade_system.sql
+
+2. ADMIN PAGES
+   📄 app/admin/signals/page.tsx
+   📄 app/admin/dashboard/page.tsx (sudah diupdate)
+
+3. USER PAGES  
+   📄 app/signals/[id]/settings/page.tsx
+
+4. COMPONENTS
+   📄 components/signals/SignalDashboard.tsx (sudah diupdate dengan real-time)
+
+5. DOCUMENTATION (Optional)
+   📄 PRIORITIZED_DEVELOPMENT_ROADMAP.md
+   📄 CONCEPT_ANALYSIS_AND_DEVELOPMENT_PLAN.md
+
+=====================================
+CARA COPY KE BOLT.NEW:
+
+METODE 1: Manual Copy-Paste
+1. Buka setiap file di editor
+2. Select All (Ctrl+A)
+3. Copy (Ctrl+C)
+4. Buka Bolt.new
+5. Buat file baru dengan nama yang sama
+6. Paste (Ctrl+V)
+
+METODE 2: GitHub (Recommended)
+1. Push project ke GitHub
+2. Di Bolt.new, import from GitHub
+3. Semua file akan ter-sync otomatis
+
+=====================================
+SETUP DI BOLT.NEW:
+
+1. Install dependencies:
+   npm install
+
+2. Setup .env.local:
+   NEXT_PUBLIC_SUPABASE_URL=your_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+
+3. Run migration di Supabase Dashboard SQL Editor
+
+4. Test:
+   npm run dev
+
+=====================================
+

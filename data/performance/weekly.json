@@ -1,0 +1,14 @@
+{
+  "days": [
+    { "label": "Sen", "profit": 1145, "loss": 50 },
+    { "label": "Sel", "profit": 890, "loss": 125 },
+    { "label": "Rab", "profit": 675, "loss": 45 },
+    { "label": "Kam", "profit": 520, "loss": 30 },
+    { "label": "Jum", "profit": 325, "loss": 25 }
+  ],
+  "totals": {
+    "profit": 3555,
+    "loss": 275,
+    "net": 3280
+  }
+}

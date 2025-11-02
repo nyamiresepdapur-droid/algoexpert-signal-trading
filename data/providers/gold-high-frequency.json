@@ -1,0 +1,87 @@
+{
+  "id": "gold-high-frequency",
+  "name": "Gold High-Frequency",
+  "type": "gold",
+  "description": "Aggressive XAUUSD trading with 6-12 signals per day and 90%+ winrate",
+  "performance": {
+    "weekly": {
+      "totalSignals": 46,
+      "totalWins": 43,
+      "totalLosses": 3,
+      "winrate": 93.48,
+      "netPips": 5230,
+      "avgPipsPerTrade": 113.7,
+      "avgPipsPerWin": 121.6,
+      "avgPipsPerLoss": -50,
+      "riskRewardRatio": 2.43,
+      "profitFactor": 11.72,
+      "bestTrade": 650,
+      "consecutiveWinDays": 3
+    },
+    "daily": [
+      {
+        "day": "Day 1",
+        "profits": 11,
+        "losses": 1,
+        "pips": 1650,
+        "winrate": 91.67,
+        "trades": [
+          { "type": "BUY", "pips": 80 },
+          { "type": "BUY", "pips": 70 },
+          { "type": "BUY", "pips": 40 },
+          { "type": "BUY", "pips": 40 },
+          { "type": "BUY", "pips": 50 },
+          { "type": "BUY", "pips": 50 },
+          { "type": "BUY", "pips": 650 },
+          { "type": "SELL", "pips": 200 },
+          { "type": "SELL", "pips": -50 },
+          { "type": "SELL", "pips": 220 },
+          { "type": "SELL", "pips": 60 },
+          { "type": "SELL", "pips": 190 }
+        ]
+      },
+      {
+        "day": "Day 2",
+        "profits": 5,
+        "losses": 1,
+        "pips": 580,
+        "winrate": 83.33
+      },
+      {
+        "day": "Day 3",
+        "profits": 10,
+        "losses": 0,
+        "pips": 850,
+        "winrate": 100
+      },
+      {
+        "day": "Day 4",
+        "profits": 7,
+        "losses": 1,
+        "pips": 260,
+        "winrate": 87.5
+      },
+      {
+        "day": "Day 5",
+        "profits": 10,
+        "losses": 0,
+        "pips": 1080,
+        "winrate": 100
+      },
+      {
+        "day": "Day 6",
+        "profits": 3,
+        "losses": 0,
+        "pips": 810,
+        "winrate": 100
+      }
+    ]
+  },
+  "features": {
+    "signalsPerDay": "6-12",
+    "avgProfitTarget": "50-650 pips",
+    "stopLoss": "50 pips (consistent)",
+    "breakevenStrategy": true,
+    "tradingStyle": "Aggressive"
+  }
+}

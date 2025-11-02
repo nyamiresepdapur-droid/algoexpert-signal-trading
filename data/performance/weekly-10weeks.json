@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "totalTrades": 502,
+    "totalWins": 402,
+    "totalLosses": 100,
+    "winrate": 80.08,
+    "netPipsCumulative": 35220,
+    "avgPipsPerTrade": 70.16,
+    "avgPipsPerWinTrade": 93.83,
+    "riskRewardRatio": 3.75,
+    "maxDrawdown": 0
+  },
+  "weeks": [
+    {
+      "weekStart": "2025-07-28",
+      "totalTrades": 39,
+      "wins": 34,
+      "losses": 5,
+      "winrate": 87.18,
+      "netPips": 3480
+    },
+    {
+      "weekStart": "2025-08-04",
+      "totalTrades": 70,
+      "wins": 56,
+      "losses": 14,
+      "winrate": 80.0,
+      "netPips": 3630
+    },
+    {
+      "weekStart": "2025-08-11",
+      "totalTrades": 72,
+      "wins": 62,
+      "losses": 10,
+      "winrate": 86.11,
+      "netPips": 4910
+    },
+    {
+      "weekStart": "2025-08-18",
+      "totalTrades": 31,
+      "wins": 23,
+      "losses": 8,
+      "winrate": 74.19,
+      "netPips": 2000
+    },
+    {
+      "weekStart": "2025-08-25",
+      "totalTrades": 32,
+      "wins": 24,
+      "losses": 8,
+      "winrate": 75.0,
+      "netPips": 1580
+    },
+    {
+      "weekStart": "2025-09-01",
+      "totalTrades": 32,
+      "wins": 24,
+      "losses": 8,
+      "winrate": 75.0,
+      "netPips": 2165
+    },
+    {
+      "weekStart": "2025-09-08",
+      "totalTrades": 37,
+      "wins": 29,
+      "losses": 8,
+      "winrate": 78.38,
+      "netPips": 2675
+    },
+    {
+      "weekStart": "2025-09-15",
+      "totalTrades": 31,
+      "wins": 23,
+      "losses": 8,
+      "winrate": 74.19,
+      "netPips": 1760
+    },
+    {
+      "weekStart": "2025-09-22",
+      "totalTrades": 38,
+      "wins": 32,
+      "losses": 6,
+      "winrate": 84.21,
+      "netPips": 2895
+    },
+    {
+      "weekStart": "2025-09-29",
+      "totalTrades": 26,
+      "wins": 20,
+      "losses": 6,
+      "winrate": 76.92,
+      "netPips": 2140
+    },
+    {
+      "weekStart": "2025-10-06",
+      "totalTrades": 22,
+      "wins": 21,
+      "losses": 1,
+      "winrate": 95.45,
+      "netPips": 2460
+    },
+    {
+      "weekStart": "2025-10-13",
+      "totalTrades": 31,
+      "wins": 25,
+      "losses": 6,
+      "winrate": 80.65,
+      "netPips": 2270
+    },
+    {
+      "weekStart": "2025-10-20",
+      "totalTrades": 41,
+      "wins": 29,
+      "losses": 12,
+      "winrate": 70.73,
+      "netPips": 3255
+    }
+  ]
+}

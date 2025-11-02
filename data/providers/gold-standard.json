@@ -1,0 +1,43 @@
+{
+  "id": "gold-standard",
+  "name": "Gold Standard",
+  "type": "gold",
+  "description": "Conservative XAUUSD trading with balanced risk management and steady growth",
+  "performance": {
+    "monthly": {
+      "totalTrades": 180,
+      "totalWins": 153,
+      "totalLosses": 27,
+      "winrate": 85,
+      "netPips": 15000,
+      "avgPipsPerTrade": 83.33,
+      "avgPipsPerWin": 120,
+      "avgPipsPerLoss": -60,
+      "riskRewardRatio": 2.0,
+      "profitFactor": 5.99,
+      "maxDrawdown": 8.5,
+      "tradingDays": 22,
+      "avgTradesPerDay": 8.2
+    },
+    "weekly": {
+      "avgTrades": 42,
+      "avgPips": 3500,
+      "avgWinrate": 85,
+      "consistency": "High"
+    }
+  },
+  "features": {
+    "signalsPerDay": "2-4",
+    "avgProfitTarget": "80-150 pips",
+    "stopLoss": "40-60 pips (dynamic)",
+    "breakevenStrategy": true,
+    "tradingStyle": "Conservative",
+    "maxConcurrentTrades": 3
+  },
+  "riskManagement": {
+    "recommendedRiskPerTrade": "1-2%",
+    "maxDailyDrawdown": "5%",
+    "positionSizing": "Risk-based",
+    "stopLossType": "Dynamic ATR-based"
+  }
+}

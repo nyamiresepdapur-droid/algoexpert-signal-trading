@@ -1,0 +1,49 @@
+{
+  "id": "multi-pair-forex",
+  "name": "Multi-Pair Forex",
+  "type": "forex",
+  "description": "37 currency pairs with diversified portfolio trading across 30min and 1hour timeframes",
+  "performance": {
+    "october2025": {
+      "totalTrades": 2922,
+      "netPips": 67971,
+      "avgPipsPerTrade": 23.27,
+      "pairs": 37,
+      "timeframes": ["30min", "1hour"],
+      "tradingDays": 22,
+      "avgTradesPerDay": 132.8,
+      "avgPipsPerDay": 3089.6
+    },
+    "september2025": {
+      "totalTrades": 3855,
+      "netPips": 44752,
+      "avgPipsPerTrade": 11.61,
+      "pairs": 37,
+      "timeframes": ["30min", "1hour"]
+    }
+  },
+  "topPairs30min": [
+    { "pair": "USDJPY", "trades": 118, "pips": 4372 },
+    { "pair": "USDCAD", "trades": 120, "pips": 4359 },
+    { "pair": "AUDUSD", "trades": 81, "pips": 3781 },
+    { "pair": "NZDJPY", "trades": 80, "pips": 3523 },
+    { "pair": "AUDCAD", "trades": 87, "pips": 3516 },
+    { "pair": "GBPCHF", "trades": 105, "pips": 3493 },
+    { "pair": "GBPJPY", "trades": 129, "pips": 3287 },
+    { "pair": "AUDJPY", "trades": 92, "pips": 2707 },
+    { "pair": "NZDCAD", "trades": 88, "pips": 2357 },
+    { "pair": "USDCHF", "trades": 93, "pips": 2293 }
+  ],
+  "topPairs1hour": [
+    { "pair": "USDCAD", "trades": 82, "pips": 2518 },
+    { "pair": "AUDUSD", "trades": 62, "pips": 2338 },
+    { "pair": "EURGBP", "trades": 47, "pips": 2093 },
+    { "pair": "EURNZD", "trades": 71, "pips": 2054 },
+    { "pair": "AUDCAD", "trades": 65, "pips": 2020 },
+    { "pair": "EURJPY", "trades": 49, "pips": 1949 },
+    { "pair": "EURAUD", "trades": 83, "pips": 1685 },
+    { "pair": "EURUSD", "trades": 46, "pips": 1637 },
+    { "pair": "NZDCAD", "trades": 56, "pips": 1632 },
+    { "pair": "AUDCHF", "trades": 56, "pips": 1600 }
+  ]
+}

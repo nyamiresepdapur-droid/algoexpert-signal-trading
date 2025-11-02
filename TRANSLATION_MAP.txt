@@ -1,0 +1,18 @@
+# Lines that still need translation in app/page.tsx
+# Run after reviewing this list
+
+Line 110: "The Truth About Manual Trading" → t.problem.badge ✅
+Line 113: "Sound Familiar?" → t.problem.title ✅
+Line 116: "These are the real stories..." → t.problem.subtitle ✅
+
+Line 245: "The Solution You've Been Waiting For" → t.solution.badge
+Line 248: "Remove The Human Error." → t.solution.title
+Line 250: "Execute Perfectly. Every Time." → t.solution.titleGradient
+Line 253-255: AlgoXpertHub eliminates... → t.solution.subtitle + bold + end
+Line 257: "Let AI handle your emotions" → t.solution.ctaBadge
+Line 269: "Manual Trading" → t.solution.manualTitle
+Line 323: "AlgoXpertHub" → t.solution.automatedTitle
+
+And many more...
+
+Total estimated: ~150-200 hardcoded strings remaining

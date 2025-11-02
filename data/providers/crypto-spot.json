@@ -1,0 +1,83 @@
+{
+  "id": "crypto-spot",
+  "name": "Crypto Spot Trading",
+  "type": "crypto",
+  "description": "50+ cryptocurrency pairs with proven 66.48% winrate over 1,068 verified trades",
+  "performance": {
+    "overall": {
+      "period": "2+ years (Aug 2023 - Oct 2025)",
+      "totalTrades": 1068,
+      "totalWins": 710,
+      "totalLosses": 358,
+      "winrate": 66.48,
+      "totalProfit": 8529.90,
+      "avgProfitPerTrade": 7.99,
+      "avgWin": 26.35,
+      "avgLoss": -14.39,
+      "riskRewardRatio": 1.83,
+      "profitFactor": 3.63,
+      "maxWin": 70.17,
+      "maxLoss": -23.53,
+      "expectancy": 12.84
+    },
+    "targetHits": {
+      "tp1": 54.46,
+      "tp2": 22.45,
+      "tp3": 17.79,
+      "stopLoss": 7.90
+    }
+  },
+  "topPerformers": [
+    { "coin": "EVAAUSDT", "trades": 11, "wins": 11, "winrate": 100.0, "profit": 426.54 },
+    { "coin": "RNDRUSDT", "trades": 15, "wins": 14, "winrate": 93.33, "profit": 537.90 },
+    { "coin": "CFXUSDT", "trades": 18, "wins": 16, "winrate": 88.89, "profit": 463.45 },
+    { "coin": "STXUSDT", "trades": 17, "wins": 15, "winrate": 88.24, "profit": 383.28 },
+    { "coin": "TRUMPUSDT", "trades": 16, "wins": 14, "winrate": 87.50, "profit": 383.11 },
+    { "coin": "ARCUSDT", "trades": 32, "wins": 25, "winrate": 78.12, "profit": 782.47 },
+    { "coin": "GRIFFAINUSDT", "trades": 46, "wins": 35, "winrate": 76.09, "profit": 1087.08 },
+    { "coin": "ALCHUSDT", "trades": 59, "wins": 44, "winrate": 74.58, "profit": 1358.23 }
+  ],
+  "categories": {
+    "meme": {
+      "trades": 111,
+      "wins": 85,
+      "winrate": 76.58,
+      "avgProfit": 21.33,
+      "totalProfit": 2367.60,
+      "topCoins": ["FARTCOINUSDT", "PENGUUSDT", "TRUMPUSDT", "BABYUSDT"]
+    },
+    "aiTech": {
+      "trades": 97,
+      "wins": 71,
+      "winrate": 73.20,
+      "avgProfit": 17.54,
+      "totalProfit": 1701.84,
+      "topCoins": ["AIXBTUSDT", "AVAAIUSDT"]
+    }
+  },
+  "features": {
+    "totalPairs": "50+",
+    "signalsPerDay": "4-6",
+    "tradingStyle": "Swing & Day Trading",
+    "avgHoldTime": "2-5 days",
+    "stopLoss": "Dynamic (avg -14.39%)",
+    "takeProfit": "Multi-target (TP1: 54%, TP2: 22%, TP3: 18%)",
+    "partialClose": "40% TP1, 30% TP2, 30% TP3",
+    "supportedExchanges": ["Binance", "Bybit"]
+  },
+  "riskManagement": {
+    "recommendedRiskPerTrade": "2%",
+    "conservativeRisk": "1%",
+    "aggressiveRisk": "5%",
+    "maxDailyDrawdown": "5%",
+    "positionSizing": "Kelly Criterion (Quarter Kelly: 6.6%)",
+    "stopLossType": "Dynamic ATR-based"
+  },
+  "setup": {
+    "requirement": "Exchange API Key",
+    "supportedExchanges": ["Binance", "Bybit"],
+    "setupTime": "5 minutes",
+    "noVPS": true,
+    "apiPermissions": ["Read", "Trade"]
+  }
+}

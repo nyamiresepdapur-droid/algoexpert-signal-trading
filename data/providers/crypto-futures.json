@@ -1,0 +1,102 @@
+{
+  "id": "crypto-futures",
+  "name": "Crypto Futures Trading",
+  "type": "crypto",
+  "description": "Leveraged trading with 67.04% winrate over 1,590 verified trades | 2x profit vs Spot",
+  "performance": {
+    "overall": {
+      "period": "2+ years (Aug 2023 - Oct 2025)",
+      "totalTrades": 1590,
+      "totalWins": 1066,
+      "totalLosses": 524,
+      "winrate": 67.04,
+      "totalProfit": 25578.85,
+      "avgProfitPerTrade": 16.09,
+      "avgWin": 26.35,
+      "avgLoss": -14.39,
+      "riskRewardRatio": 1.83,
+      "profitFactor": 3.73,
+      "maxWin": 70.17,
+      "maxLoss": -23.53,
+      "expectancy": 12.84
+    },
+    "comparison": {
+      "vsSpot": {
+        "profitMultiplier": "2x",
+        "contributionToTotal": "75%",
+        "winrateAdvantage": "+0.56%"
+      }
+    },
+    "targetHits": {
+      "tp1": 54.46,
+      "tp2": 22.45,
+      "tp3": 17.79,
+      "stopLoss": 7.90
+    }
+  },
+  "topPairs": [
+    { "pair": "ALCHUSDT", "trades": 59, "wins": 44, "winrate": 74.58, "profit": 1358.23 },
+    { "pair": "FARTCOINUSDT", "trades": 59, "wins": 44, "winrate": 74.58, "profit": 1138.31 },
+    { "pair": "GRIFFAINUSDT", "trades": 46, "wins": 35, "winrate": 76.09, "profit": 1087.08 },
+    { "pair": "ARCUSDT", "trades": 32, "wins": 25, "winrate": 78.12, "profit": 782.47 },
+    { "pair": "AIXBTUSDT", "trades": 42, "wins": 30, "winrate": 71.43, "profit": 725.20 },
+    { "pair": "VIRTUALUSDT", "trades": 35, "wins": 26, "winrate": 74.29, "profit": 653.39 }
+  ],
+  "tradingStrategies": [
+    {
+      "name": "Scalping",
+      "timeframe": "1m-5m",
+      "leverage": "10-20x",
+      "avgHoldTime": "5-30 minutes",
+      "profitTarget": "0.5-2%",
+      "stopLoss": "0.3-0.8%",
+      "signalsPerDay": "10-20"
+    },
+    {
+      "name": "Day Trading",
+      "timeframe": "15m-1h",
+      "leverage": "5-10x",
+      "avgHoldTime": "2-8 hours",
+      "profitTarget": "2-5%",
+      "stopLoss": "1-2%",
+      "signalsPerDay": "5-10"
+    },
+    {
+      "name": "Swing Trading",
+      "timeframe": "4h-1d",
+      "leverage": "3-5x",
+      "avgHoldTime": "1-5 days",
+      "profitTarget": "5-15%",
+      "stopLoss": "2-4%",
+      "signalsPerDay": "2-5"
+    }
+  ],
+  "features": {
+    "signalsPerDay": "8-15",
+    "tradingStyle": "Scalping, Day & Swing",
+    "avgLeverage": "5-10x",
+    "maxLeverage": "20x",
+    "stopLoss": "Dynamic 0.5-4%",
+    "takeProfit": "Multi-target with partial close",
+    "breakevenStrategy": true,
+    "trailingStop": true,
+    "supportedExchanges": ["Binance Futures", "Bybit"]
+  },
+  "riskManagement": {
+    "recommendedRiskPerTrade": "0.5-1%",
+    "conservativeRisk": "0.5%",
+    "aggressiveRisk": "2%",
+    "maxDailyDrawdown": "3%",
+    "maxLeverage": "20x",
+    "positionSizing": "Fixed fractional",
+    "stopLossType": "Tight dynamic",
+    "liquidationProtection": true
+  },
+  "setup": {
+    "requirement": "Exchange API Key",
+    "supportedExchanges": ["Binance Futures", "Bybit"],
+    "setupTime": "5 minutes",
+    "noVPS": true,
+    "apiPermissions": ["Read", "Trade", "Futures"]
+  }
+}

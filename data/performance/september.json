@@ -1,0 +1,10 @@
+[
+  { "symbol": "EURUSD", "timeframe": "30m", "profitPips": 298 },
+  { "symbol": "GBPUSD", "timeframe": "30m", "profitPips": 145 },
+  { "symbol": "XAUUSD", "timeframe": "1h", "profitPips": -320 },
+  { "symbol": "USDJPY", "timeframe": "30m", "profitPips": 187 },
+  { "symbol": "AUDUSD", "timeframe": "1h", "profitPips": 92 },
+  { "symbol": "EURUSD", "timeframe": "1h", "profitPips": 512 },
+  { "symbol": "GBPJPY", "timeframe": "1h", "profitPips": -158 },
+  { "symbol": "NZDUSD", "timeframe": "30m", "profitPips": 234 }
+]

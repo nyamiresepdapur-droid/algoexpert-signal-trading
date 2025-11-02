@@ -1,0 +1,136 @@
+=================================================================
+ALGOXPERTHUB - DEPLOYMENT INSTRUCTIONS
+=================================================================
+
+FILE EXPORTED: algoxperthub-export.tar.gz (741KB)
+
+=================================================================
+CARA DEPLOY KE HOSTING
+=================================================================
+
+OPSI 1: CPANEL/SHARED HOSTING (Niagahoster, Hostinger, dll)
+-------------------------------------------------------------
+1. Login ke cPanel hosting Anda
+2. Buka "File Manager"
+3. Masuk ke folder "public_html" (atau "www", "htdocs" tergantung hosting)
+4. Upload file "algoxperthub-export.tar.gz"
+5. Klik kanan file > "Extract"
+6. Pindahkan semua isi folder "out/" ke root "public_html/"
+   (Drag and drop semua file dari out/ langsung ke public_html/)
+7. Hapus folder "out/" dan file tar.gz
+8. Buka domain Anda di browser
+
+STRUKTUR AKHIR DI CPANEL:
+public_html/
+  ├── index.html
+  ├── _next/
+  ├── admin/
+  ├── legal/
+  ├── faq.html
+  ├── pricing.html
+  └── ... (semua file lainnya)
+
+=================================================================
+OPSI 2: VERCEL (RECOMMENDED - GRATIS & CEPAT)
+-------------------------------------------------------------
+1. Buka https://vercel.com
+2. Sign up/Login dengan GitHub
+3. Klik "Add New" > "Project"
+4. Import repository GitHub Anda atau upload folder project
+5. Framework: Next.js (auto-detect)
+6. Build Command: npm run build
+7. Output Directory: out
+8. Klik "Deploy"
+9. Selesai! Domain: https://your-project.vercel.app
+
+CUSTOM DOMAIN DI VERCEL:
+1. Project Settings > Domains
+2. Add domain Anda (algoxperthub.com)
+3. Update DNS di domain registrar Anda:
+   - Type: A, Value: 76.76.21.21
+   - Type: CNAME, Name: www, Value: cname.vercel-dns.com
+
+=================================================================
+OPSI 3: NETLIFY (GRATIS)
+-------------------------------------------------------------
+1. Buka https://netlify.com
+2. Sign up/Login
+3. Drag & drop folder "out/" ke dashboard
+4. Tunggu deployment selesai
+5. Domain: https://your-site.netlify.app
+
+CUSTOM DOMAIN DI NETLIFY:
+1. Site Settings > Domain Management > Add Custom Domain
+2. Update DNS:
+   - Type: A, Value: 75.2.60.5
+   - Type: CNAME, Name: www, Value: [your-site].netlify.app
+
+=================================================================
+OPSI 4: GITHUB PAGES (GRATIS)
+-------------------------------------------------------------
+1. Buat repository baru di GitHub
+2. Upload semua file dari folder "out/"
+3. Settings > Pages
+4. Source: Deploy from a branch
+5. Branch: main, Folder: / (root)
+6. Save
+7. Domain: https://username.github.io/repo-name
+
+=================================================================
+FILES YANG SUDAH DI-EXPORT
+=================================================================
+✅ Homepage (index.html)
+✅ Pricing page (pricing.html)
+✅ FAQ page (faq.html)
+✅ Features page (features.html)
+✅ Performance page (performance.html)
+✅ Contact page (contact.html)
+✅ Legal pages (terms, privacy, disclaimer)
+✅ All assets (_next folder)
+✅ Mobile responsive
+✅ All CTA buttons → https://t.me/AlgoXpertHub
+
+=================================================================
+ENVIRONMENT VARIABLES (Jika Deploy via Vercel/Netlify)
+=================================================================
+TIDAK PERLU! Website ini full static HTML, tidak butuh environment variables.
+
+Admin waitlist page (/admin/waitlist) butuh Supabase, tapi untuk
+landing page publik, semua sudah berjalan tanpa config apapun.
+
+=================================================================
+TESTING
+=================================================================
+Setelah deploy, test:
+1. ✅ Homepage load dengan benar
+2. ✅ Mobile responsive (buka dari HP)
+3. ✅ Semua tombol "Join Waitlist" redirect ke Telegram
+4. ✅ Navigation berfungsi (Features, Pricing, FAQ, dll)
+5. ✅ Language toggle EN/ID berfungsi
+
+=================================================================
+TROUBLESHOOTING
+=================================================================
+
+404 Error di routing:
+- Pastikan semua file .html sudah di root folder
+- Check file index.html ada di public_html/
+
+Assets tidak load (CSS/JS):
+- Check folder _next/ ada dan complete
+- Clear browser cache (Ctrl+F5)
+
+Mobile menu tidak muncul:
+- Check JavaScript di _next/ sudah load
+- Buka browser console untuk cek error
+
+=================================================================
+SUPPORT
+=================================================================
+Butuh bantuan? Contact via Telegram: https://t.me/AlgoXpertHub
+
+Build Date: October 28, 2025
+Version: 1.0
+Total Size: 741KB (compressed)
+Extracted Size: 2.7MB
+=================================================================
