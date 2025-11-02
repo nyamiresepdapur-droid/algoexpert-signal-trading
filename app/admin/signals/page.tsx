@@ -141,7 +141,7 @@ export default function AdminSignalsPage() {
       const { data, error } = await supabase
         .from('signal_providers')
         .select('*')
-        .where('is_active', true)
+        .eq('is_active', true)
         .order('name');
 
       if (error) throw error;
